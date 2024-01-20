@@ -21,4 +21,7 @@ Follow these steps to run the project locally:
 2. Change Directory
     ```bash
     cd github
-3. Run Server
+3. Change username 
+    ```bash
+    yourUsername to your github username
+4. Save and Start Server
