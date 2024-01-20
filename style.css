@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#app {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#profile-section {
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.Repo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+#profile-section img {
+    max-width: 100%;
+    max-height: 15vh;
+    border-radius: 50%;
+}
+
+#repositories-section .repository {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.repository{
+    width: 48%;
+    /* overflow: auto; */
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-item {
+    cursor: pointer;
+    color: #007BFF;
+    font-weight: bold;
+}
+.profile_img{
+    padding: 10px;
+    padding-right: 30px;
+}
+.pagination-item.active {
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
